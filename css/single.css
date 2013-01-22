@@ -1,0 +1,377 @@
+#single-posts article {
+	width: 683px;
+	display:block;
+	float: left;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 3px solid #000;
+	display: block;
+	height: auto;
+	margin: 20px 0px 20px 0px;
+}
+
+#single-posts article p {
+width: 690px;
+	margin-bottom: 14px;
+	font: 14px/15px 'PT Serif', serif;
+	line-height: 22px;
+	text-align: left;
+	
+}
+
+#single-posts {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#single-posts #leftcol {
+float: left;
+	width: 765px;
+	display: block;
+color: #1b1b1b;
+font: 12px/15px 'PT Serif', serif;
+/*border-left: 1px solid #cccccc;
+border-right: 1px solid #cccccc;*/
+
+}
+
+#rightcol {
+float: left;
+	display: block;
+	width: 300px;
+	padding: 0px 0px 10px 0px;
+	margin-left: 20px;
+}
+
+#bg {
+	width: 100%;
+	background-color: #fff;	
+	height: auto;
+	padding-bottom: 10px;
+}
+
+#single-posts blockquote  { 
+background-image: url(../images/quote-open.png), url(../images/quote-close.png);
+background-position: 10px top, 10px bottom;
+background-repeat: no-repeat;
+position: relative;
+  width: 200px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  padding-left: 15px;
+padding-top: 40px;
+padding-bottom: 25px;
+  border-left: 1px dotted #000000;
+  font-style: italic;
+  float: right;
+  display: inline-block;
+}
+	#single-posts blockquote p {   font-size: 24px; line-height: 26px;
+	}
+	
+	
+#single-posts h1 {
+	font-size: 60px;
+	line-height: 70px;
+		padding-top: 30px;
+	
+}
+
+#single-posts h2 {
+	font-size: 36px;
+	line-height: 40px;
+	text-align: left;
+	
+}
+
+#single-posts h3 {
+	font-size: 30px;
+	line-height: 34px;
+}
+
+#single-posts h4 {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#single-posts h5 {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#single-posts h6 {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#single-posts article ol li {
+	list-style: decimal;
+	margin-left:  40px;
+	font-size: 14px;
+}
+
+#single-posts article ul li {
+	list-style: circle;
+	margin-left:  40px;
+	font-size: 14px;
+}
+
+#single-posts .postinfo {
+	padding-left:  5px;
+	color: #a0a0a0;
+	font: 12px 'PT Serif', serif;
+}
+
+#single-posts .postinfo a {
+	color: #808080;
+	font: 12px 'PT Serif', serif;
+}
+
+.excerpt {
+	padding: 10px 0px 10px 3px;
+	color: #848484;
+	font: 18px 'PT Sans', serif;
+	font-weight: normal;
+}
+
+
+#single-posts .share-contain {
+	margin-left: 1020px;
+		margin-top: -20px;
+		
+}
+
+/* added by Sawyer for the gallery */
+/*.dp_media_container, .dp-feat-img-wrap{
+	position: relative;
+}*/
+
+
+/*	jCarousel
+ ************************************************/
+.dp_carousel {
+	
+	/* KICKS DEALS */
+  margin-bottom: 15px;
+}
+
+h2.module_title{
+padding-top: 0px;
+	margin-top: -10px;
+	font-size: 30px;
+}
+
+
+
+
+/* Advance carousel links */
+.dp_carousel_prev {
+	
+	/* KICKS-CUDI-PUSHA */
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+.dp_carousel_next{
+	/* KICKS-CUDI-PUSHA */
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+.dp_carousel_prev:hover, .dp_carousel_next:hover {
+	/* KICKS-CUDI */
+	background-color: #000;
+}
+
+
+.dp_carousel_container{
+	
+	/* KICKSDEALS */
+	width: 530px;
+}
+
+.dp_media_container.dp-full {
+margin-top:  0px;
+margin-bottom: 20px;
+background-color: #f4f4f4;
+padding: 0px;
+width: 720px;
+margin-left: -20px;
+}
+
+.dp_media_container.dp-full:current { -webkit-transition: all .5s ease;
+ -moz-transition: all .5s ease-in-out;
+ -o-transition: all .5s ease-in-out;
+ -ms-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;}
+
+.dp-full img{
+	height: 480px;
+	max-width: 720px;
+	width: auto !important;
+	
+}
+
+#comments {
+	float: left;
+	width: 765px;
+	display: block;
+			border-top: 1px solid #000;
+					padding: 20px 0px 20px 0px;
+					background-color: #fff;
+			
+	
+}
+
+#comments h3 {
+		font-size: 30px;
+		margin-bottom:  10px;
+		padding-top: 5px;
+		margin-left: 0px;
+			font-weight: normal;
+		
+}
+/*------------RELATED POSTS-------------*/
+
+	h3.related {
+		font-size: 24px;
+		margin-bottom:  -5px;
+		padding-top: 15px;
+		margin-left: 0px;
+			float: left;
+			font-weight: normal;
+		
+	}
+	
+	
+	.relatedposts {
+			padding: 5px 10px 0px 10px;
+			height: 235px;
+			width: 750px;
+		display: block;
+	/*	margin-top:  -10px;*/
+			float: left;
+			margin-bottom: 30px;
+			margin-left:  -15px;	
+			margin-top: 0px;	
+			line-height: 13px;
+			
+	}
+	
+	.relatedposts h3 {
+		letter-spacing: -1px;
+		font-size: 20px;
+	font-size: 16px; font-family: 'PT Sans Narrow', sans-serif; line-height: 18px;
+	}
+	
+	.relatedposts a {
+	color: #333;
+		text-decoration: none;
+		font-size: 12px;
+		height: 150px;
+		text-align: center;
+	}
+	
+	.relatedposts a:hover {
+		color: #134364;
+	}
+	
+	/*h4.related {
+		font: 22px 'Oswald', sans-serif;
+	}*/
+	
+	/*.relatedpost-contain {
+		float: left;
+		width:  150px;
+		margin-right: 40px;
+		display: block;
+		height: 100%;
+	}*/
+	
+	
+	/*.relatedposts img {
+			width: 150px;
+			height: 80px;
+			opacity: 1.0;
+			padding:  0px;
+			margin-bottom: 7px;
+		}*/
+		
+		.relatedposts img:hover {
+		opacity: 0.8;	
+		}
+		
+		/*------------RELATED POSTS END-------------*/
+		
+		.credit {font-size: 10px; text-transform: uppercase; padding-bottom: 10px;}
+		
+		.post-end-logo {
+		width: 50px;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		}
+		
+		.post-end-logo img {
+		opacity: 1.0;
+		-webkit-transition: all .5s ease;
+ -moz-transition: all .5s ease-in-out;
+ -o-transition: all .5s ease-in-out;
+ -ms-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;
+}
+		
+		.post-end-logo img:hover {
+		opacity: 0.5;
+		-webkit-transition: all .5s ease;
+ -moz-transition: all .5s ease-in-out;
+ -o-transition: all .5s ease-in-out;
+ -ms-transition: all .5s ease-in-out;
+ transition: all .5s ease-in-out;
+ }
+	
+		
+		.post-end-twitter {
+		width: 155px;
+		margin: 0 auto;
+				padding-bottom: 10px;
+
+		}
+		
+		.yarpp-thumbnail-time {
+			margin: 10px px 7px 0px;
+			color: #888888;
+				font-weight: normal;
+				text-decoration: none;
+				font-size: 12px;
+				text-align: center;
+				
+		}
+		
+		.yarpp-thumbnail a:hover {
+	
+				text-decoration: none;
+		}
+		
+		#social-post {
+			margin-bottom: 20px;
+		}
+		
+		#social-post p {
+			float: left;
+			padding: 0px 30px 0px 0px;
+		}
+		
+		#post300 {
+			border-top: 1px solid #333;
+		}
+		
+		#post300 p {
+			font-size: 10px;
+			padding: 3px 0px 3px 0px;
+			color: #656565;
+		}
+		
