@@ -57,7 +57,6 @@ padding: 19px 25px 17px 25px;
  position: absolute;
  left: -999em;
 margin-top: 14px;
-border-top: 1px solid #333;
 border-left: 1px solid #ededed;
 border-bottom: 5px solid #282828;
  width: 1080px;
@@ -76,6 +75,7 @@ left: auto;  z-index:1000;
   -o-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;*/
+  margin-left: -180px;
 }
 
 
@@ -141,31 +141,30 @@ color: #000;
 
 #leftcolnav {
 	width: 180px;
-	background-color: #313131;
+	background-color: #1e1e1e;
 	display: block;
 	float: left;
-	text-align: center;
+	text-align: left;
 }
 
 #leftcolnav a {
 	float: left;
 	width:  180px;
-	background-color: #313131;
-	height:19px;
+	background-color: #1e1e1e;
+	height: 30px;
 	text-transform: none;
-	padding: 8px 10px 10px 2px;font-size: 16px;
-	border-bottom: 1px solid #242424;
+	padding: 20px 0px 7px 20px;font-size: 16px;
 	 color: #fff;
 	
 }
 
 #leftcolnav a:hover {
-	background-color: #000000;
+	background-color: #151515;
 	color: #fff;
 }
 .category-nav-item {
 	float: right;
-	background-color: #373737;
+	background-color: #151515;
 	
 }
 
@@ -176,20 +175,19 @@ color: #000;
  /* W3C */ 
  
 /* font: 15px/17px 'Oswald', sans-serif;*/
-width: 205px;
+width: 220px;
 float: left;
-padding: 0px 0px 15px 15px;
+padding: 0px 0px 15px 0px;
 line-height: 18px;
 height:  213px;
-background-color: #373737;
+background-color: #151515;
 text-align: center;
 color: #fff;
 
 }
 
 .category-nav-item .twentyten-latest-post:first-child {
-padding: 0px 0px 15px 30px;
-
+padding: 0px 0px 15px -5px;
 
 }
 
@@ -208,11 +206,11 @@ color: #fff;
 }
 
 
-.category-nav-item .twentyten-latest-post:hover { background-color: #373737;
+.category-nav-item .twentyten-latest-post:hover { background-color: #151515;
 }
 .category-nav-item .twentyten-latest-post a { color: #fff; text-decoration: none;
 font-weight: normal; text-align: center;
-font-size: 16px; font-family: 'Borda-Medium'; line-height: 18px; text-transform: none; padding: 0px; margin: 0px 0px -20px 0px; 
+font-size: 16px; font-family: 'Borda-Medium'; line-height: 18px; text-transform: none; padding: 0px; margin: 0px 0px -10px 0px; 
 float:  left;
 width: 180px;
 }
@@ -222,7 +220,7 @@ font-weight: normal;
 border-bottom: 0px;
 background: none;
 }
-.category-nav-item .twentyten-latest-post img { margin: 15px 0px 0px 0px; border: 0px;  vertical-align: middle; width: 180px;
+.category-nav-item .twentyten-latest-post img { margin: 0px 0px -10px 0px; border: 0px;  vertical-align: middle; width: 180px;
 height:  110px;
 -webkit-transition: all .5s ease;
 -moz-transition: all .5s ease-in-out;
@@ -245,5 +243,5 @@ transition: all .5s ease-in-out;
 	color: #a0a0a0;
 	font-size: 13px;
 	text-align: center;
-	width: 180px;
+	margin-left: 20px;
 }

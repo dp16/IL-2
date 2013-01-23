@@ -72,7 +72,7 @@ h2,
 h3,
 h4,
 h5,
-h6 					{ font-weight:bold; font-family: 'PT Sans Narrow', sans-serif; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+h6 					{	font-family: 'Borda-Medium'; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
 
 body {
 	background: #fff;
@@ -226,6 +226,12 @@ top: -25px;
 	padding-bottom: 20px;
 }
 
+#slider-right .dp_media_container{
+	
+		padding-bottom: 20px;	
+		
+}
+
 #slider {
 	width: 710px;
 	height:  515px;
@@ -271,25 +277,12 @@ float: left;
 	margin: 0 auto;
 }
 
-#infinite-footer {
-	width:  1090px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #cccccc;
-	background: url(images/infinitecontent.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 65px;
-	display: block;
-	float: left;
-	margin-bottom: 50px;
-	margin-left:  30px;
-}
 
 #rightcol {
 float: left;
 	display: block;
 	width: 300px;
-	padding: 30px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 
@@ -297,6 +290,7 @@ float: left;
 .cat {
 	width: 335px;
 	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .cat a {
@@ -309,7 +303,7 @@ float: left;
 	width: 335px;
 	height: 300px;
 	z-index: 1;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 	opacity: 1.0;
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease-in-out;
@@ -411,8 +405,8 @@ text-decoration: none;
 padding: 10px 10px 10px 33px;
 margin-top:  10px;
 margin-bottom: 30px;
-font-size: 13px;
 float: left;
+font-size: 13px;
 border: 1px solid #cccccc;
 width:  150px;
 text-align: center;
@@ -650,45 +644,8 @@ border-bottom-left-radius: 5px;
 	margin-top: 4px;
 
 }
-.widget {
-	margin-top: 20px;
-	padding-top: 10px;
-	border-top: 1px dashed #929292;
-	float: clear;
-}
-.widget h2 {
-	color: #2f2f2f;
-	font-size: 20px;
-	padding-bottom: 10px;
-}
 
-/*------------Latest Posts-------------*/
-.twentyten-latest-post {margin-bottom: 0px; padding-right: 15px; border-bottom: 1px solid #fff;  /* Old browsers */
- /* W3C */
 
-/* font: 15px/17px 'Oswald', sans-serif;*/
-background-color: #f7f7f7;
-}
-/*.twentyten-latest-post:last-child {
-border-bottom: 1px dotted #b8b8b8;
-}*/
-
-.wtf {
-margin-top: -10px;
-}
-
-.twentyten-latest-post:hover { background-color: #efefef;
-}
-.twentyten-latest-post a { color: #515151; text-decoration: none;
-margin-top: 4px; padding-top:  10px;
-font: normal 12px/12px 'Monda', sans-serif;
-}
-.twentyten-latest-post a:hover { color: #000000; font-weight: normal;
-}
-.twentyten-latest-post img {float: left; margin: 0px 10px 0px 0px; border: 0px;  vertical-align: middle; margin-top: 1px;
-}
-
-.twentyten-latest-post  .clear {clear: both;}
 
 
 		#search-bar {
@@ -734,7 +691,13 @@ h4.featured-title {
 		margin-top: 20px;
 		padding-top: 0px;
 
+
 	}
+	
+	.wtf {
+	margin-top: -10px;
+	}
+	
 
 	.widget-featured h2 {
 		width:  335px;
@@ -820,13 +783,126 @@ border-radius: 3px;
 	z-index: 10;
 */
 }
-
-#infinitecontent {
-	background-image: url(images/infinitecontent.png);
-	width: 300px;
-	height: 50px;
-	margin-bottom:  10px;
+.timer-animation {
+	display: none;
 }
+
+/* ----------------------------------------------------------------------------------------------------------
+04 FOOTER Homepage  ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+#infinite-footer {
+	width:  1090px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #cccccc;
+	background: url(images/infinitecontent.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 65px;
+	display: block;
+	float: left;
+	margin-bottom: 50px;
+	margin-left:  30px;
+}
+
+#footer-left {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 335px;
+	margin-top: 90px;
+	margin-right: 20px;
+}
+
+#footer-left .dp_media_container{
+
+	padding-bottom: 20px;	
+	
+}
+
+/*------------Infintie Tips Latest-------------*/
+
+#infinitetips {
+	background-image: url(images/infinitetips.png);
+width: 335px;
+height: 24px;
+margin-bottom:  10px;
+}
+
+#footer-left .twentyten-latest-post {margin-bottom: 0px; padding-right: 15px; height: 45px;  /* Old browsers */
+background: #ffffff;
+
+}
+
+
+#footer-left .wtf {
+margin-top: -10px;
+}
+
+#footer-left .twentyten-latest-post:hover { background: #f7f7f7;
+}
+#footer-left .twentyten-latest-post a { font-size: 14px; font-family: 'Borda-Medium'; text-decoration: none; color: #1f1f1f; width: 335px; font-weight: normal;
+}
+#footer-left .twentyten-latest-post a:hover { color: #000000; font-weight: normal;
+}
+#footer-left .twentyten-latest-post img {float: left; margin: 0px 20px 0px 0px;  border: 0px;  vertical-align: middle; padding-top: 10px;
+}
+
+#footer-left .twentyten-latest-post  .clear {clear: both;}
+
+/*------------Infintie Tips Latest-------------*/
+
+
+#footer-mid {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 335px;
+	margin-top: 90px;
+	margin-right: 60px;
+}
+
+#facebookwidget {
+	background-image: url(images/facebookwidget.png);
+width: 335px;
+height: 24px;
+margin-bottom:  15px;
+}
+
+#newsletterwidget {
+	background-image: url(images/newsletterwidget.png);
+width: 335px;
+height: 24px;
+margin-bottom:  5px;
+margin-top: 5px;
+}
+
+#footer-right {
+	display: block;
+	float: left;
+	height: 250px;
+	width: 335px;
+	margin-top: 90px;
+}
+
+#popularcities {
+	background-image: url(images/popularcities.png);
+width: 335px;
+height: 24px;
+margin-bottom:  10px;
+}
+
+#footer-right a {
+	font-family: 'Borda-Medium';
+	font-size: 18px;
+	float:  left;
+	width: 165px;
+	height: 20px;
+	text-decoration: none;
+	margin-bottom: 17px;
+}
+
+
 
 
 #flightsoffancy {
@@ -834,57 +910,52 @@ border-radius: 3px;
 	width: 335px;
 	height: 24px;
 	margin-bottom:  10px;
+
 }
 
-
-#infinitefacebook {
-	background-image: url(images/infinitefacebook.png);
-	width: 300px;
-	height: 50px;
-	margin-bottom:  10px;
+#infiniteload {
+	margin-left: 55px;
+	font-family: 'Borda-Medium';
+	font-size: 16px;
+	margin-top: -20px;
 }
 
-#infinitetwitter {
-	background-image: url(images/infinitetwitter.png);
-	width: 300px;
-	height: 50px;
-	margin-bottom:  10px;
-}
-
-.timer-animation {
-	display: none;
-}
 
 /* ----------------------------------------------------------------------------------------------------------
 04 Sawyer's Customizations ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
-#fullhome article{
+
+
+#fullhomeposts li:nth-child(n+7) article{
 	width: 247px;
 	height: 380px;
 	 float: left;
 	 margin: 0px 0px 10px 32px;
+	 
 }
 
-#fullhome article img{
-	width: 247px;
-	height: 200px;
+#fullhomeposts li:nth-child(n+7) article img{
+width: 247px;
+height: 200px;
 }
 
 
-#fullhome article:nth-child(-n+6){
+
+
+#fullhomeposts article:nth-child(-n+1000){
 	width: 335px;
 	height: 460px;
 	margin: 20px 8px 10px 32px;
 			  float: left;
 }
 
-#fullhome li:nth-child(-n+6) article img{
-	width: 335px;
-	height: 300px;
+#fullhomeposts li:nth-child(-n+6) article img{
+		width: 335px;
+		height: 300px;
 }
 
 
 
-#fullhome .cat, #fullhome h2, #fullhome .post-info, #fullhome p{
+#fullhomeposts .cat, #fullhome h2, #fullhome .post-info, #fullhome p{
 	width: auto;
 }

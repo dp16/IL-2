@@ -19,6 +19,16 @@
 Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>. <?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?>.  
 </div>
 
+<div id="single-post-share">
+				<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/facebook-b.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></span></a>
+			
+			<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/twitter-b.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></span></a>
+			
+			<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/pinterest-b.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></span></a>
+			
+
+				</div>
+
  	
 	 
 <div id="wrapper">
@@ -54,11 +64,11 @@ if( has_post_thumbnail() ){
 			
 			<?php } ?>
 			
+							</article>
 			<div class="post-end-logo"><a href="http://infinitelegroom.com"><img src="<?php bloginfo('template_directory'); ?>/images/IL.png" width="30px" height="30px"/></a></div>
-			
-			<div class="post-end-twitter"><a href="https://twitter.com/infinitelegroom" class="twitter-follow-button" data-show-count="false">Follow @infinitelegroom</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-				</article>
+						
+						<div class="post-end-twitter"><a href="https://twitter.com/infinitelegroom" class="twitter-follow-button" data-show-count="false">Follow @infinitelegroom</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
 			
 
 <!--	<?php if ( get_the_author_meta( 'description' ) ) : ?>-->
@@ -66,9 +76,13 @@ if( has_post_thumbnail() ){
 <!--	<h3>About <?php echo get_the_author() ; ?></h3>-->
 <!--	<?php the_author_meta( 'description' ); ?>-->
 <!--	<?php endif; ?>-->
-<h3 class="related">Related Stories</h3>
-<div class="relatedposts"><?php related_posts()?></div>
-	<div id="comments"><h3>Infinite Comments</h3><?php comments_template( '', true ); ?></div>
+<div class="relatedposts">
+<div id="relatedstories"><h2 class="hide">Related Stories - Why Stop Here?</h2></div>
+
+<?php related_posts()?></div>
+
+	<div id="comments"><div id="infinitecomments"><h2 class="hide">Infinite Comments - Tell Us How You Really Feal!</h2></div>
+	<?php comments_template( '', true ); ?></div>
 
 
 <?php endwhile; ?>

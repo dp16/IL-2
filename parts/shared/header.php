@@ -3,7 +3,7 @@
 </div>
 
 <header>
-	<div id="logo"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"></div>
+	<div id="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"></a></div>
 	<h1><a class="hide" href="/"><?php bloginfo( 'name' ); ?></a></h1>
 <!--	<?php get_search_form(); ?>-->
 
@@ -18,12 +18,8 @@
 <a href="#">Another One</a>
 <a href="#">One More</a>
 <a href="#">Look at That</a>
-<a href="#">Menu Categories</a>
-<a href="#">Sub Menu 6</a>
 </div>
 
-<!--  <li><a href="http://datnewcudi.com/forums/index.php?action=register">Register</a></li>
-  <li><a href="http://datnewcudi.com/forums/index.php?action=profile">Profile</a></li>-->
   <div class="category-nav-item">
   <?php
   							$the_query = new WP_Query('showposts=4&orderby=post_date&order=desc');
@@ -31,7 +27,7 @@
   									<div class="twentyten-latest-post">
   										<a href="<?php echo $guid; ?>" title="<?php echo $post_title; ?>"><?php the_post_thumbnail(array(180,110), array ('class' => 'alignleft')); ?></a>
   										 <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
-  										 <div class="postdatenav"><?php the_time('M. j, Y'); ?> | Paris</div>
+  										 <div class="postdatenav"><?php the_time('M. j, Y'); ?></div>
   										 <div class="clear"></div>
   									</div>
 

@@ -1,19 +1,15 @@
 #single-posts article {
-	width: 683px;
+	width: 650px;
 	display:block;
 	float: left;
 	padding-right: 40px;
-	padding-left: 40px;
-	border-left: 1px solid #cccccc;
-	border-right: 1px solid #cccccc;
-	border-bottom: 3px solid #000;
 	display: block;
 	height: auto;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 20px -10px;
 }
 
 #single-posts article p {
-width: 690px;
+width: 650px;
 	margin-bottom: 14px;
 	font: 14px/15px 'PT Serif', serif;
 	line-height: 22px;
@@ -28,21 +24,26 @@ width: 690px;
 
 #single-posts #leftcol {
 float: left;
-	width: 765px;
+	width: 710px;
 	display: block;
 color: #1b1b1b;
 font: 12px/15px 'PT Serif', serif;
-/*border-left: 1px solid #cccccc;
-border-right: 1px solid #cccccc;*/
+
 
 }
 
 #rightcol {
 float: left;
 	display: block;
-	width: 300px;
+	width: 335px;
 	padding: 0px 0px 10px 0px;
-	margin-left: 20px;
+	margin-left: 30px;
+}
+
+#rightcol .dp_media_container{
+
+	padding-bottom: 20px;	
+	
 }
 
 #bg {
@@ -52,25 +53,31 @@ float: left;
 	padding-bottom: 10px;
 }
 
-#single-posts blockquote  { 
+.entry {
+	margin-left: 30px;
+}
+
+#single-posts .entry blockquote  { 
 background-image: url(../images/quote-open.png), url(../images/quote-close.png);
 background-position: 10px top, 10px bottom;
 background-repeat: no-repeat;
 position: relative;
-  width: 200px;
+  width: 250px;
   margin-top: 5px;
-  margin-right: 0px;
+  margin-right: -20px;
   margin-bottom: 5px;
   margin-left: 15px;
   padding-left: 15px;
 padding-top: 40px;
 padding-bottom: 25px;
-  border-left: 1px dotted #000000;
+  border-left: 1px solid #ccc;
   font-style: italic;
   float: right;
   display: inline-block;
+   font-family: 'Borda-Medium';
 }
-	#single-posts blockquote p {   font-size: 24px; line-height: 26px;
+	#single-posts  .entry blockquote p {   width: 250px;
+		font-size: 24px; line-height: 26px;
 	}
 	
 	
@@ -78,7 +85,7 @@ padding-bottom: 25px;
 	font-size: 60px;
 	line-height: 70px;
 		padding-top: 30px;
-	
+
 }
 
 #single-posts h2 {
@@ -108,13 +115,13 @@ padding-bottom: 25px;
 	line-height: 20px;
 }
 
-#single-posts article ol li {
+#single-posts .entry ol li {
 	list-style: decimal;
 	margin-left:  40px;
 	font-size: 14px;
 }
 
-#single-posts article ul li {
+#single-posts .entry ul li {
 	list-style: circle;
 	margin-left:  40px;
 	font-size: 14px;
@@ -123,18 +130,18 @@ padding-bottom: 25px;
 #single-posts .postinfo {
 	padding-left:  5px;
 	color: #a0a0a0;
-	font: 12px 'PT Serif', serif;
+	font: 12px 'Borda-Medium';
 }
 
 #single-posts .postinfo a {
-	color: #808080;
-	font: 12px 'PT Serif', serif;
+	color: #a0a0a0;
+	font: 12px 'Borda-Medium';
 }
 
 .excerpt {
 	padding: 10px 0px 10px 3px;
 	color: #848484;
-	font: 18px 'PT Sans', serif;
+	font: 18px 'Borda-Medium';
 	font-weight: normal;
 }
 
@@ -145,62 +152,34 @@ padding-bottom: 25px;
 		
 }
 
+
+
 /* added by Sawyer for the gallery */
+
+/* @group Untitled Group */
+
 /*.dp_media_container, .dp-feat-img-wrap{
 	position: relative;
 }*/
 
+/* @end */
+
 
 /*	jCarousel
  ************************************************/
-.dp_carousel {
-	
-	/* KICKS DEALS */
-  margin-bottom: 15px;
-}
 
 h2.module_title{
-padding-top: 0px;
-	margin-top: -10px;
+padding-top: 10px;
 	font-size: 30px;
+	width: 600px;
 }
 
-
-
-
-/* Advance carousel links */
-.dp_carousel_prev {
-	
-	/* KICKS-CUDI-PUSHA */
-	background-color: rgba(0,0,0,0.8);
-	
-}
-
-.dp_carousel_next{
-	/* KICKS-CUDI-PUSHA */
-	background-color: rgba(0,0,0,0.8);
-	
-}
-
-.dp_carousel_prev:hover, .dp_carousel_next:hover {
-	/* KICKS-CUDI */
-	background-color: #000;
-}
-
-
-.dp_carousel_container{
-	
-	/* KICKSDEALS */
-	width: 530px;
-}
 
 .dp_media_container.dp-full {
 margin-top:  0px;
-margin-bottom: 20px;
+margin-bottom: 30px;
 background-color: #f4f4f4;
-padding: 0px;
-width: 720px;
-margin-left: -20px;
+width: 710px;
 }
 
 .dp_media_container.dp-full:current { -webkit-transition: all .5s ease;
@@ -210,18 +189,129 @@ margin-left: -20px;
  transition: all .5s ease-in-out;}
 
 .dp-full img{
-	height: 480px;
-	max-width: 720px;
+	height: 390px;
+	max-width: 710px;
 	width: auto !important;
 	
 }
 
+
+#flightsoffancy2 {
+	width: 335px;
+	height: 24px;
+	margin-bottom:  10px;
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	background: url(../images/flightsoffancy.png) no-repeat left bottom;
+}
+
+#twitterwidget {
+	background-image: url(../images/twitterwidget.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  10px;
+
+}
+
+#followus {
+	background-image: url(../images/followus.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  0px;
+
+}
+
+#followus-items {
+	margin-top:  -30px;
+	margin-left:170px;
+	margin-bottom: 15px;
+}
+
+#followus-items img {
+	opacity: 1.0;
+	
+}
+
+
+#followus-items .tooltip {
+ outline: none;
+   text-decoration: none;
+  position: relative;
+}
+#followus-items .tooltip span {
+  margin-left: -999em;
+  position: absolute;
+    display: block;
+    height: 30px;
+}
+
+#followus-items .tooltip:hover span {
+  position: absolute;
+left:  -10px;
+top: 25px;
+  z-index: 99;
+  margin: 0 auto;
+  width: 50px;
+  border-radius: 5px 5px;
+  padding: 4px 5px 4px 5px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+  
+ display: block;
+ height: 63px;
+ text-align: center;
+ color: #cbcbcb;
+ font: 12px 'Borda-Medium';
+ 
+}
+
+#followus-items .tooltip:hover em {
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+
+#followus-items img:hover {
+	opacity: 0.5;
+	-webkit-transition: all .5s ease-in-out;
+	  -moz-transition: all .5s ease-in-out;
+	  -o-transition: all .5s ease-in-out;
+	  -ms-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+}
+#relatedstories {
+	background-image: url(../images/relatedstories.png);
+	width: 335px;
+	height: 24px;
+	margin-bottom:  0px;
+		border-top: 1px solid #ccc;
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		padding-top: 30px;
+		width: 700px;
+	
+
+}
+
+#infinitecomments {
+	background-image: url(../images/infinitecomments.png);
+	width: 430px;
+	height: 24px;
+	margin-bottom:  20px;
+
+}
+
+
+
+
 #comments {
 	float: left;
-	width: 765px;
+	width: 680px;
 	display: block;
-			border-top: 1px solid #000;
-					padding: 20px 0px 20px 0px;
+			border-top: 1px solid #ccc;
+					padding: 30px 0px 20px 0px;
 					background-color: #fff;
 			
 	
@@ -233,6 +323,92 @@ margin-left: -20px;
 		padding-top: 5px;
 		margin-left: 0px;
 			font-weight: normal;
+		
+}
+
+#global-nav h4 {
+		font-family: 'Borda-Medium';
+		
+	}
+	
+	#single-post-share {
+		width: 50px;
+		float: right;
+		margin-top:  -120px;
+		
+	}
+		
+		#single-post-share img {
+			opacity: 0.3;
+			margin-bottom: 10px;
+			
+		}
+		
+		#single-post-share img:hover {
+			opacity: 0.7;
+			
+		}
+		
+		
+		#single-post-share .tooltip {
+		 outline: none;
+		   text-decoration: none;
+		  position: relative;
+		}
+		#single-post-share .tooltip span {
+		  margin-left: 0em;
+		  position: absolute;
+		    display: block;
+		    height:25px;
+		    width: 0px;
+		    left: 30px;
+		    top: -10px;
+		    border-radius: 0px 5px 5px 0px;
+		    padding: 5px 0px 0px 5px;
+		    background-color: #fff;
+		    overflow: hidden;
+		}
+		
+		.classic {
+			 padding: 5px 5px 3px 5px;
+		}
+		
+		#single-post-share .tooltip:hover span {
+		  position: absolute;
+		left: 30px;
+		top: -10px;
+		  z-index: 99;
+		  margin: 0 auto;
+		  width: 90px;
+		  border-radius: 0px 5px 5px 0px;
+		  padding: 5px 0px 0px 5px;
+		  background-color: #808080;
+		 display: block;
+		 height: 25px;
+		 text-align: center;
+		 color: #cbcbcb;
+		 font: 12px 'Borda-Medium';
+		 -webkit-transition: all .5s ease;
+		   -moz-transition: all .5s ease;
+		   -o-transition: all .5s ease;
+		   -ms-transition: all .5s ease;
+		   transition: all .5s ease;
+		}
+		
+		#single-post-share .tooltip:hover em {
+		  font-weight: bold;
+		  display: block;
+		  padding: 0.2em 0 0.6em 0;
+		}
+		
+		#single-post-share img:hover {
+			opacity: 0.5;
+			-webkit-transition: all .5s ease;
+			  -moz-transition: all .5s ease;
+			  -o-transition: all .5s ease;
+			  -ms-transition: all .5s ease;
+			  transition: all .5s ease;
+		}
 		
 }
 /*------------RELATED POSTS-------------*/
@@ -251,7 +427,7 @@ margin-left: -20px;
 	.relatedposts {
 			padding: 5px 10px 0px 10px;
 			height: 235px;
-			width: 750px;
+			width: 680px;
 		display: block;
 	/*	margin-top:  -10px;*/
 			float: left;
@@ -265,7 +441,7 @@ margin-left: -20px;
 	.relatedposts h3 {
 		letter-spacing: -1px;
 		font-size: 20px;
-	font-size: 16px; font-family: 'PT Sans Narrow', sans-serif; line-height: 18px;
+	font-size: 16px; font-family: 'Borda-Medium'; line-height: 18px;
 	}
 	
 	.relatedposts a {
@@ -337,17 +513,18 @@ margin-left: -20px;
 		.post-end-twitter {
 		width: 155px;
 		margin: 0 auto;
-				padding-bottom: 10px;
+				padding-bottom: 30px;
 
 		}
 		
 		.yarpp-thumbnail-time {
-			margin: 10px px 7px 0px;
+			margin: 10px 0px 7px 25px;
 			color: #888888;
 				font-weight: normal;
 				text-decoration: none;
 				font-size: 12px;
 				text-align: center;
+				font-family: 'Borda-Medium';
 				
 		}
 		
@@ -366,12 +543,66 @@ margin-left: -20px;
 		}
 		
 		#post300 {
-			border-top: 1px solid #333;
+			width: 335px;
+			margin-top: -15px;
+			height: 295px;
 		}
 		
 		#post300 p {
 			font-size: 10px;
 			padding: 3px 0px 3px 0px;
-			color: #656565;
+			color: #929292;
 		}
+		
+		#post300 li {
+			width: 300px;
+			height: 250px;
+			margin: 0 auto;
+			padding-top:  10px;
+		}
+		
+		.widget {
+			margin-top: 10px;
+			padding-top: 20px;
+			border-top: 1px solid #ccc;
+			float: clear;
+			width: 335px;
+		}
+		.widget h2 {
+			color: #2f2f2f;
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+		
+		/*------------Infintie Tips Latest-------------*/
+		
+		#infinitetips {
+			background-image: url(images/infinitetips.png);
+		width: 335px;
+		height: 24px;
+		margin-bottom:  10px;
+		}
+		
+		.twentyten-latest-post {margin-bottom: 0px; padding-right: 15px; height: 45px;  /* Old browsers */
+		background: #ffffff;
+		
+		}
+		
+		
+		.twentyten-latest-post .wtf {
+		margin-top: -10px;
+		}
+		
+		.twentyten-latest-post:hover { background: #f7f7f7;
+		}
+		.twentyten-latest-post a { font-size: 14px; font-family: 'Borda-Medium'; text-decoration: none; color: #1f1f1f; width: 335px; font-weight: normal;
+		}
+		.twentyten-latest-post a:hover { color: #000000; font-weight: normal;
+		}
+		.twentyten-latest-post img {float: left; margin: 0px 20px 0px 0px;  border: 0px;  vertical-align: middle; padding-top: 10px;
+		}
+		
+		.twentyten-latest-post  .clear {clear: both;}
+		
+		/*------------Infintie Tips Latest-------------*/
 		
