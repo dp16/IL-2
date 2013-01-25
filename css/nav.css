@@ -49,6 +49,7 @@ padding: 19px 25px 17px 25px;
 /* background-color: #fff;
   border-bottom: 2px solid #000;*/
   background-color: #151515;
+  
  
 }
 
@@ -57,7 +58,6 @@ padding: 19px 25px 17px 25px;
  position: absolute;
  left: -999em;
 margin-top: 14px;
-border-left: 1px solid #ededed;
 border-bottom: 5px solid #282828;
  width: 1080px;
  display: block;
@@ -149,11 +149,11 @@ color: #000;
 
 #leftcolnav a {
 	float: left;
-	width:  180px;
+	width:  160px;
 	background-color: #1e1e1e;
 	height: 30px;
 	text-transform: none;
-	padding: 20px 0px 7px 20px;font-size: 16px;
+	padding: 13px 0px 3px 20px;font-size: 15px;
 	 color: #fff;
 	
 }
@@ -165,11 +165,13 @@ color: #000;
 .category-nav-item {
 	float: right;
 	background-color: #151515;
+
 	
 }
 
 .category-nav-item a {
 color: #000;
+
 }
 .category-nav-item .twentyten-latest-post {margin-bottom: 0px; border-bottom: 0px solid #fff;  /* Old browsers */
  /* W3C */ 
@@ -177,12 +179,13 @@ color: #000;
 /* font: 15px/17px 'Oswald', sans-serif;*/
 width: 220px;
 float: left;
-padding: 0px 0px 15px 0px;
+padding: 0px 10px 15px 0px;
 line-height: 18px;
-height:  213px;
+height:  215px;
 background-color: #151515;
 text-align: center;
 color: #fff;
+margin-left: -5px;
 
 }
 
@@ -206,7 +209,8 @@ color: #fff;
 }
 
 
-.category-nav-item .twentyten-latest-post:hover { background-color: #151515;
+.category-nav-item .twentyten-latest-post:hover { background-color: #151515; 
+
 }
 .category-nav-item .twentyten-latest-post a { color: #fff; text-decoration: none;
 font-weight: normal; text-align: center;
@@ -243,5 +247,5 @@ transition: all .5s ease-in-out;
 	color: #a0a0a0;
 	font-size: 13px;
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 6px;
 }

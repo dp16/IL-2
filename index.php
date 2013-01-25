@@ -16,6 +16,7 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div id="content-bg">
 <div id="wrapper">
+
 <div id="fullhome">
 <div id="fullhomeposts">
 <?php if ( have_posts() ): ?>
@@ -28,7 +29,13 @@
 			the_post_thumbnail( 'custom-post-image' ); // insert "custom size" image
 
 			?></a></div>
-								<div class="cat"><?php the_category(', ') ?></div>
+								<div class="cat"><?php $parentscategory ="";
+								foreach((get_the_category()) as $category) {
+								if ($category->category_parent == 0) {
+								$parentscategory .= ' <a href="' . get_category_link($category->cat_ID) . '" title="' . $category->name . '">' . $category->name . '</a>, ';
+								}
+								}
+								echo substr($parentscategory,0,-2); ?></div>
 
 					<h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 

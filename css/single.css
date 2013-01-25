@@ -168,32 +168,6 @@ padding-bottom: 25px;
 /*	jCarousel
  ************************************************/
 
-h2.module_title{
-padding-top: 10px;
-	font-size: 30px;
-	width: 600px;
-}
-
-
-.dp_media_container.dp-full {
-margin-top:  0px;
-margin-bottom: 30px;
-background-color: #f4f4f4;
-width: 710px;
-}
-
-.dp_media_container.dp-full:current { -webkit-transition: all .5s ease;
- -moz-transition: all .5s ease-in-out;
- -o-transition: all .5s ease-in-out;
- -ms-transition: all .5s ease-in-out;
- transition: all .5s ease-in-out;}
-
-.dp-full img{
-	height: 390px;
-	max-width: 710px;
-	width: auto !important;
-	
-}
 
 
 #flightsoffancy2 {
@@ -229,7 +203,7 @@ width: 710px;
 
 #followus-items img {
 	opacity: 1.0;
-	
+	margin-left: 15px;
 }
 
 
@@ -426,7 +400,7 @@ top: 25px;
 	
 	.relatedposts {
 			padding: 5px 10px 0px 10px;
-			height: 235px;
+			height: 265px;
 			width: 680px;
 		display: block;
 	/*	margin-top:  -10px;*/

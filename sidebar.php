@@ -51,14 +51,9 @@
 									
 					<div id="followus"><h2 class="hide">Follow Us</h2></div>
 					<div id="followus-items">
-					<a class="tooltip" href="#"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-sidebar.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhypebeast&amp;send=false&amp;layout=box_count&amp;width=335&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:335px; height:90px;" allowTransparency="true"></iframe></span></a>
-				
-				<a class="tooltip" href="#"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-sidebar.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhypebeast&amp;send=false&amp;layout=box_count&amp;width=335&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:335px; height:90px;" allowTransparency="true"></iframe></span></a>
-				
-				<a class="tooltip" href="#"><img src="<?php bloginfo('template_directory'); ?>/images/googleplus-sidebar.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhypebeast&amp;send=false&amp;layout=box_count&amp;width=335&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:335px; height:90px;" allowTransparency="true"></iframe></span></a>
-				
-				<a class="tooltip" href="#"><img src="<?php bloginfo('template_directory'); ?>/images/pinterest-sidebar.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhypebeast&amp;send=false&amp;layout=box_count&amp;width=335&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=90&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:335px; height:90px;" allowTransparency="true"></iframe></span></a>
-				
+					<a href="https://www.facebook.com/pages/Infinite-Legroom/441297992571193"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-sidebar.png"></a>				
+				<a href="http://twitter.com/infinitelegroom"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-sidebar.png"></a>				
+				<a href="http://www.instagram.com/infinitelegroom"><img src="<?php bloginfo('template_directory'); ?>/images/instagram-sidebar.png"></a>				
 	
 					</div>
 

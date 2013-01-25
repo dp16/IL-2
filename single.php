@@ -24,7 +24,17 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 			
 			<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/twitter-b.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></span></a>
 			
-			<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/pinterest-b.png"><span class="classic"><iframe src="//www.facebook.com/plugins/like.php?href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=verdana&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=162246747192992" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></span></a>
+			<a class="tooltip" href="#"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/pinterest-b.png"><span class="classic"><!-- Place this tag where you want the share button to render. -->
+			<div class="g-plus" data-action="share" data-annotation="bubble" data-href="<?php the_permalink(); ?>"></div>
+			
+			<!-- Place this tag after the last share tag. -->
+			<script type="text/javascript">
+			  (function() {
+			    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			    po.src = 'https://apis.google.com/js/plusone.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			  })();
+			</script></span></a>
 			
 
 				</div>

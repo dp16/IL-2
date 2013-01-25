@@ -3,7 +3,7 @@
 </div>
 
 <header>
-	<div id="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"></a></div>
+	<div id="logo"><a href="http://www.infinitelegroom.com"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png"></a></div>
 	<h1><a class="hide" href="/"><?php bloginfo( 'name' ); ?></a></h1>
 <!--	<?php get_search_form(); ?>-->
 
@@ -18,6 +18,7 @@
 <a href="#">Another One</a>
 <a href="#">One More</a>
 <a href="#">Look at That</a>
+<a href="#">Travel</a>
 </div>
 
   <div class="category-nav-item">
@@ -55,16 +56,15 @@
 </div>
 
 <div id="social-top">
-<a class="tooltip" href="http://www.twitter.com/infinitelegroom"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-b.png"><span class="classic">Twitter</span></a>
-<a class="tooltip" href="http://www.facebook.com/infinitelegroom"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/facebook-b.png"><span class="classic">Facebook</span></a>
-<a class="tooltip" href="http://www.pinterest.com/infinitelegroom"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/pinterest-b.png"><span class="classic">Pinterest</span></a>
-<a class="tooltip" href="http://www.instagram.com/infinitelegroom"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/instagram-b.png"><span class="classic">Instagram</span></a>
+<a class="tooltip" href="http://www.twitter.com/infinitelegroom" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-b.png"><span class="classic">Twitter</span></a>
+<a class="tooltip" href="http://www.facebook.com/infinitelegroom" target="_blank"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/facebook-b.png"><span class="classic">Facebook</span></a>
+<a class="tooltip" href="http://www.instagram.com/infinitelegroom" target="_blank"><img class="tooltip" src="<?php bloginfo('template_directory'); ?>/images/instagram-b.png"><span class="classic">Instagram</span></a>
 </div>
 
 
 <div id="search-bar-nav">
            <form method="get" id="searchform1" action="<?php bloginfo('url'); ?>">
-<input type="text" value=" " onfocus="if (this.value==' ') this.value='';" name="s" id="searchinput" />
+<input type="text" value="Search" onfocus="if (this.value=='Search') this.value='';" name="s" id="searchinput" />
                <input type="image" src="<?php bloginfo('template_directory'); ?>/images/search-nav.png" id="searchsubmit" />
            </form>
        </div>
