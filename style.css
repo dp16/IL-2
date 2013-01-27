@@ -924,8 +924,12 @@ margin-bottom:  10px;
 04 Sawyer's Customizations ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
+#fullhomeposts{
+	overflow: hidden;
+}
 
-#fullhomeposts li:nth-child(n+7) article{
+
+#fullhomeposts article:nth-child(n+7){
 	width: 247px;
 	height: 380px;
 	 float: left;
@@ -933,7 +937,7 @@ margin-bottom:  10px;
 	 
 }
 
-#fullhomeposts li:nth-child(n+7) article img{
+#fullhomeposts article:nth-child(n+7) img{
 width: 247px;
 height: 200px;
 }
@@ -941,14 +945,14 @@ height: 200px;
 
 
 
-#fullhomeposts article:nth-child(-n+1000){
+#fullhomeposts article:nth-child(-n+6){
 	width: 335px;
 	height: 460px;
 	margin: 20px 8px 10px 32px;
-			  float: left;
+	float: left;
 }
 
-#fullhomeposts li:nth-child(-n+6) article img{
+#fullhomeposts article:nth-child(-n+6) img{
 		width: 335px;
 		height: 300px;
 }

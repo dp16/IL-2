@@ -20,9 +20,7 @@
 <div id="fullhome">
 <div id="fullhomeposts">
 <?php if ( have_posts() ): ?>
-<ol>
 <?php while ( have_posts() ) : the_post(); ?>
-	<li>
 		<article>
 			<div class="featured-home"><a href="<?php esc_url( the_permalink() ); ?>"><?php
 
@@ -44,9 +42,7 @@
 
 				<?php the_content( __( '...', 'twentyten' ) ); ?>
 		</article>
-	</li>
 <?php endwhile; ?>
-</ol>
 <?php else: ?>
 <h2>No posts to display</h2>
 <?php endif; ?>

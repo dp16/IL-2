@@ -76,7 +76,7 @@
 <?php if( is_front_page() ) : ?>
 <div id="home-deck">
 <div id="slider">
-<?php echo slider_pro(1); ?>
+<?php if( function_exists('slider_pro') ) echo slider_pro(1); ?>
 </div>
 
 <div id="slider-right">
@@ -92,7 +92,7 @@
 					       'beforetitle'  => '<h4>',
 					       'aftertitle'   => '</h4>'
 					   );
-					featured_posts_YIW( $args );
+          if(function_exists('featured_posts_YIW')) featured_posts_YIW( $args );
 					 
 					?>	</div>
 <!--<div id="home300-c">     --><div id="home300"> <p>ADVERTISEMENT</p>  <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/ad300.jpg"></a></li>
