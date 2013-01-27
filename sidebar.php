@@ -42,7 +42,7 @@
 					       'beforetitle'  => '<h4>',
 					       'aftertitle'   => '</h4>'
 					   );
-					featured_posts_YIW( $args );
+					if(function_exists('featured_posts_YIW')) featured_posts_YIW( $args );
 					 
 					?>	</div>
 					

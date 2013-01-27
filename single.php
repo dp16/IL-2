@@ -89,7 +89,7 @@ if( has_post_thumbnail() ){
 <div class="relatedposts">
 <div id="relatedstories"><h2 class="hide">Related Stories - Why Stop Here?</h2></div>
 
-<?php related_posts()?></div>
+<?php if(function_exists('related_posts')) related_posts()?></div>
 
 	<div id="comments"><div id="infinitecomments"><h2 class="hide">Infinite Comments - Tell Us How You Really Feal!</h2></div>
 	<?php comments_template( '', true ); ?></div>
