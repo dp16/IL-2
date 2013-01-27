@@ -9,7 +9,6 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.masonry.min.js"></script>
-		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/style.css" />
 <!--		<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="<?php bloginfo('template_directory'); ?>/css/ipad.css" type="text/css" />-->
 		<?php wp_head(); ?>
 		<!--

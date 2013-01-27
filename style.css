@@ -103,7 +103,9 @@ header {
 	margin:  0 auto;
 	height:  123px;
 	padding-top: 10px;
-		background-image: url(images/navbg.jpg);
+	background-image: url(images/navbg.jpg);
+	z-index: 999;
+	position: relative;
 
 }
 

@@ -56,26 +56,24 @@ padding: 19px 25px 17px 25px;
 #nav li ul {
  list-style: none;
  position: absolute;
- left: -999em;
-margin-top: 14px;
-border-bottom: 5px solid #282828;
- width: 1080px;
- display: block;
-  z-index:1000;
-
-
-
+ top: -800px;
+ left: 50%;
+	margin-top: 14px;
+	margin-left: -540px;
+	border-bottom: 5px solid #282828;
+	 width: 1080px;
+	 display: block;
+  z-index: 0;
+ 	-webkit-t/* ransition: all .5s ease;
+ 	  -moz-transition: all .5s ease;
+ 	  -o-transition: all .5s ease;
+ 	  -ms-transition: all .5s ease;
+ 	  transition: all .5s ease; */
 }
 
 #nav li:hover ul,
 #nav li.sfhover ul {
-left: auto;  z-index:1000;
-/*  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;*/
-  margin-left: -180px;
+	top: 119px;
 }
 
 
