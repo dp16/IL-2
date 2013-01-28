@@ -46,14 +46,17 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 <article>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-<?php 
-// The featured image and module feature images
-if( has_post_thumbnail() ){
-	the_post_thumbnail( 'dp-full' ); 
-} elseif( get_dp_module_media( $post ) ){
-	echo dp_module_media( $post );
-} ?>
-<!--<div id="content-bg">-->
+<div class="atrak-gallery-image-wrap">
+	<span class="dp_carousel_nav_prev" data-tooltip="Shift + ←" original-title=""></span>
+	<span class="dp_carousel_nav_next" data-tooltip="Shift + →" original-title=""></span>
+	<?php 
+	// The featured image and module feature images
+	if( has_post_thumbnail() ){
+		the_post_thumbnail( 'dp-full' ); 
+	} elseif( get_dp_module_media( $post ) ){
+		echo dp_module_media( $post );
+	} ?>
+</div>
 
 <span class="dp-carousel-count"><span class="dp-carousel-count-current"></span><span class="dp-carousel-count-total"></span></span>
 

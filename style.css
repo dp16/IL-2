@@ -965,5 +965,26 @@ height: 200px;
 .dp-carousel-count{
 	text-align: center;
 	display:  block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+.atrak-gallery-image-wrap{
+	position: relative;
+	width: 710px;
+}
+
+.atrak-gallery-image-wrap .dp_carousel_nav_prev,
+.atrak-gallery-image-wrap .dp_carousel_nav_next{
+	top: 50%;
+	margin-top: -15px;
+}
+
+.atrak-gallery-image-wrap .dp_carousel_nav_prev{
+	left: 20px;
+}
+
+.atrak-gallery-image-wrap .dp_carousel_nav_next{
+	left: auto;
+	right: 20px;
 }
