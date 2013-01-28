@@ -3,6 +3,8 @@
 //	DP Gallery Plugin Options
 // ************************************************************
 
+update_option('dp_gallery_css_disabled', true);
+
 global $dp_custom_repeater_fields;
 
 $dp_custom_repeater_fields = array(

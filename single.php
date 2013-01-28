@@ -44,6 +44,8 @@ Posted by <?php the_author(); ?> in <?php the_category(', ') ?> on <?php the_tim
 <div id="wrapper">
 <div id="leftcol">
 <article>
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
 <?php 
 // The featured image and module feature images
 if( has_post_thumbnail() ){
@@ -52,11 +54,12 @@ if( has_post_thumbnail() ){
 	echo dp_module_media( $post );
 } ?>
 <!--<div id="content-bg">-->
-<?php 
-    // The slider + navigation
-	 	dp_carousel( $post->ID ); ?>
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
+<span class="dp-carousel-count"><span class="dp-carousel-count-current"></span><span class="dp-carousel-count-total"></span></span>
+
+<?php 
+// The slider + navigation
+dp_carousel( $post->ID ); ?>
 
 
 <!--	<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> <?php the_time(); ?></time> <?php comments_popup_link('Leave a Comment', '1 Comment', '% Comments'); ?>-->

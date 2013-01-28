@@ -23,6 +23,7 @@ CONTENTS:
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
+@import "css/dp-gallery.css";
 @import "css/reset.css";
 @import "css/nav.css";
 @import "css/single.css";
@@ -945,8 +946,6 @@ height: 200px;
 }
 
 
-
-
 #fullhomeposts article:nth-child(-n+6){
 	width: 335px;
 	height: 460px;
@@ -959,8 +958,12 @@ height: 200px;
 		height: 300px;
 }
 
-
-
 #fullhomeposts .cat, #fullhome h2, #fullhome .post-info, #fullhome p{
 	width: auto;
+}
+
+.dp-carousel-count{
+	text-align: center;
+	display:  block;
+	margin-bottom: 20px;
 }
